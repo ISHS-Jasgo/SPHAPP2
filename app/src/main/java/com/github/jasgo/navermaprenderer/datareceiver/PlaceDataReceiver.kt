@@ -42,7 +42,7 @@ class PlaceDataReceiver {
     }
 
     private fun getLatLngfromAddressRequest(): Request {
-        val url = URL("http://app.ishs.co.kr:5000/places")
+        val url = URL("http://jrh-ishs.kro.kr:5000/places")
         return Request.Builder()
             .url(url)
             .build()

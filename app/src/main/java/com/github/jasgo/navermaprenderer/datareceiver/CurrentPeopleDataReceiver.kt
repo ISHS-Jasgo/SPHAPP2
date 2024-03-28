@@ -35,7 +35,7 @@ class CurrentPeopleDataReceiver {
 
     private fun getCurrentPeopleDataRequest(): Request {
         return Request.Builder()
-            .url("http://app.ishs.co.kr:5000/people")
+            .url("http://jrh-ishs.kro.kr:5000/people")
             .build()
     }
 
