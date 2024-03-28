@@ -54,7 +54,7 @@ class PredictDataReceiver {
     }
 
     private fun getPredictPeopleCountRequest(): Request {
-        val url = URL("http://app.ishs.co.kr:3000/predict/all")
+        val url = URL("http://jrh-ishs.kro.kr:8000/predict/all")
         return Request.Builder()
             .url(url)
             .build()

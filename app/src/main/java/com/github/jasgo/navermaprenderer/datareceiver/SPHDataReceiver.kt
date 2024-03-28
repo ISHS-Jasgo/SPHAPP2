@@ -37,7 +37,7 @@ class SPHDataReceiver {
     }
 
     private fun getPlaceDangerRequest(): Request {
-        val url = URL("http://jrh.ishs.co.kr/sphResult")
+        val url = URL("http://jrh-ishs.kro.kr/sphResult")
         return Request.Builder()
             .url(url)
             .build()
